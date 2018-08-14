@@ -1,0 +1,50 @@
+body{
+    background-color: aqua;
+    margin-top: 15%;
+    width: 100%;
+}
+
+.container{
+    background-color:grey;
+    display: grid;
+    width: 50%;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+} 
+
+h1{
+    text-align: center;
+    font-family: 'Courier New';
+}
+
+input{
+    margin: 20px;
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+label{
+    font-family: 'Courier New';
+    font-size: 30px;
+    font-weight: bold;
+}
+#entry, #output{
+    text-align: center;
+}
+
+button{
+    background-color: aqua;
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Gill Sans MT';
+}
+
+#output{
+    font-family: cursive;
+    font-weight: bold;
+}
